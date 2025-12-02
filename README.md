@@ -16,12 +16,20 @@ We utilize the **FaceForensics++ dataset**, focusing specifically on the *Deepfa
 │   ├── data_preprocessing_notebooks/
 │   ├── model_training_notebooks/
 │   └── (Based on original GitHub repo by abhijithjadhav)
-│
-├── checkpoints/
-│   └── Stored model checkpoints generated during training
-│
-├── video_splits_output/
-│   └── Training, validation, and test video split files
+|
+├── Transfer-based Adversarial Training/
+│   ├── Testing/
+|   ├── Training/
+|   |   ├── adversarially_enhanced_model/
+|   |   └── baseline_model/
+|   ├── Data/
+|   |   ├── data_augmentation/
+|   |   └── data_split/
+|   |       ├── adversarial_splits/
+|   |       └── baseline_split/
+|
+├── Madry-style Adversarial Training/
+|
 ```
 
 ---
