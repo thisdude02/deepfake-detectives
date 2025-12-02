@@ -26,7 +26,7 @@ We utilize the **FaceForensics++ dataset**, focusing specifically on the *Deepfa
 |   |   ├── data_augmentation/
 |   |   └── data_split/
 |   |       ├── adversarial_splits/
-|   |       └── baseline_split/
+|   |       └── baseline_splits/
 |
 ├── Madry-style Adversarial Training/
 |
