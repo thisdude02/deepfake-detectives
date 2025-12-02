@@ -13,8 +13,6 @@ We utilize the **FaceForensics++ dataset**, focusing specifically on the *Deepfa
 ```
 .
 ├── notebooks/
-│   ├── data_preprocessing_notebooks/
-│   ├── model_training_notebooks/
 │   └── (Based on original GitHub repo by abhijithjadhav)
 |
 ├── Transfer-based Adversarial Training/
