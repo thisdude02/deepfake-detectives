@@ -35,7 +35,7 @@ We utilize the **FaceForensics++ dataset**, focusing specifically on the *Deepfa
 ## Getting Started
 
 1. Clone the repository in Google Colab.
-2. Download FaceForensics++ dataset or other deepfake datasets. Ensure deepfakes and adversarial examples are stored in a "manipulated", "deepfake", or "fake" folder.
+2. Download [FaceForensics++ dataset](https://github.com/ondyari/FaceForensics) or other deepfake datasets. Ensure deepfakes and adversarial examples are stored in a "manipulated", "deepfake", or "fake" folder.
 3. Add paths to datasets in the data preprocessing notebooks.
 4. Run the provided Jupyter notebooks for data preprocessing and model training.
 
@@ -49,6 +49,8 @@ For questions, suggestions, or contributions, feel free to open an issue or pull
 ## Credits/Acknowledgements
 
 The videoDatset class, model architecture and parts of the training code are adapted from [Abhijith Jadhav's Deepfake Detection Using Deep Learning Github repository](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning).
+
+The training of the model also uses data from the [FaceForensics++ dataset](https://github.com/ondyari/FaceForensics).
 
 ## License Notice
 
